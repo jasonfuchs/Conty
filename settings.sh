@@ -40,6 +40,7 @@ PACKAGES=(
 	cabextract wget gamemode lib32-gamemode mangohud lib32-mangohud
 	# development
 	base-devel git meson mingw-w64-gcc cmake
+	rust cargo wlroots0.20
 	# gaming
 	lutris python-protobuf steam steamtinkerlaunch
 	minigalaxy prismlauncher bottles playonlinux obs-studio
@@ -53,6 +54,8 @@ PACKAGES=(
 	htop qbittorrent speedcrunch gpicview file-roller openbox lxterminal
 	yt-dlp minizip nautilus genymotion jre17-openjdk gnome-themes-extra
  	ffmpegthumbnailer tmux libisoburn doublecmd-qt6
+	# mine
+	xwayland-satellite fuse3
 )
 
 # If you want to install AUR packages, specify them in this variable
